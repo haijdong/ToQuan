@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/ic_official_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_integral_top"/>
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_down_arrar_white"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#F2AE0A"
+        android:text="如何获得Ai积分"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/ic_official_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="1、收到鲜花将获得积分"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="#F2AE0A"
+            android:text=" (1朵鲜花 = 1个Ai积分)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:text="2、活跃用户将获得官方随机奖励的积分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_down_arrar_white"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#F2AE0A"
+        android:text="Ai积分的用途"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/ic_official_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="1、积分可以到Ai官方微信公众号"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="#F2AE0A"
+            android:text="(toapp)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="兑换"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="#F2AE0A"
+            android:text="微信红包"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:text="2、累计To积分可以提升VIP等级"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

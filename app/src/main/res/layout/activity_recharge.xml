@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#323441">
+
+        <ImageButton
+            android:id="@+id/recharge_returnbtn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@android:color/transparent"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_title_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/recharge_returnbtn"
+            android:gravity="center_vertical"
+            android:text="充值提现"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="#01BC0D"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="我的积分"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textColor="#60BD09"
+                android:background="@drawable/selector_recharge_withdrawalsbt"
+                android:text="提现"/>
+
+            <TextView
+                android:textSize="10sp"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_unknown"
+                android:drawableTintMode="screen"
+                android:gravity="center_vertical"
+                android:text="积分的获取和用途"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_diamonds"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:text="我的钻石"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textSize="25sp"
+            android:textColor="#60BD09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0颗"/>
+
+
+            <TextView
+                android:textSize="10sp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableStart="@drawable/ic_unknown"
+                android:drawableTintMode="screen"
+                android:gravity="center_vertical"
+                android:text="钻石的获取和用途"/>
+
+        <Button
+            android:id="@+id/recharge_rechargebtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:elevation="0dp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/selector_recharge_rechargebtn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="充值"/>
+
+        <TextView
+            android:textSize="12sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.只有认证用户才可以提现"/>
+
+        <TextView
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.关注官方微信公众号Toapp,微信提现实时到账"/>
+
+        <TextView
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.常见充值提现问题咨询微信:to2015app"/>
+    </LinearLayout>
+</LinearLayout>

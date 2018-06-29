@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:background="@android:color/white"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#323441">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="登录"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/aiquan_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/aiquan_logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <ImageView
+            android:id="@+id/aiquan_init_logo"
+            android:scaleType="fitXY"
+            android:src="@drawable/aiquan_init_logo"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="250dp"
+            android:layout_height="250dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/login_slogan"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:text="爱圈儿 我们只玩真的"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/weixinlogin_btn"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/selector_wxlogin"
+        android:elevation="0dp"
+        android:text="微信登录"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"/>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/phonelogin_btn"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_phonelogin_selector"
+        android:elevation="0dp"
+        android:text="手机登录"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"/>
+
+
+    <RelativeLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#C6C6C6"
+                android:textSize="10sp"
+                android:text="使用爱圈,即表示您同意爱圈的"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="10sp"
+                android:text=" 用户协议"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

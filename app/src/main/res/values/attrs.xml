@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="CarrouselLayout">
+
+        <attr name="autoRotation" format="boolean"/>
+        <attr name="rotationTime" format="integer"/>
+        <attr name="r" format="dimension"/>
+
+        <attr name="rotateDirection">
+            <enum name="clockwise" value="0"/>
+            <enum name="anticlockwise" value="1"/>
+        </attr>
+
+    </declare-styleable>
+
+
+
+
+
+    <declare-styleable name="TabIconView">
+        <attr name="tab_textSize" />
+        <attr name="tab_textColor" />
+        <attr name="tab_icon" />
+        <attr name="tab_text" />
+    </declare-styleable>
+</resources>

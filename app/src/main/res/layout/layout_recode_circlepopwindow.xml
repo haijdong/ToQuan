@@ -1,0 +1,18 @@
+<RelativeLayout
+    android:id="@+id/recode_popwindow_circle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+
+    <ProgressBar
+        android:id="@+id/progressbar_register_recode"
+        style="@style/progressBar"
+        android:layout_width="16dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="26dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

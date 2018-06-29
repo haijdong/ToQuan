@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#323441">
+
+        <ImageButton
+            android:id="@+id/report_returnbtn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@android:color/transparent"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_title_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/report_returnbtn"
+            android:gravity="center_vertical"
+            android:text="举报"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="色情低俗"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+        <RadioButton
+            android:text="侮辱诋毁"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+        <RadioButton
+            android:text="政治敏感"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+        <RadioButton
+            android:text="红包内容"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+        <RadioButton
+            android:text="不及时回应"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+        <RadioButton
+            android:text="其他原因"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:gravity="top"
+        android:background="@drawable/selector_report_explain"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"/>
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/selector_register_submit"
+        android:elevation="0dp"
+        android:text="提交"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"/>
+</LinearLayout>

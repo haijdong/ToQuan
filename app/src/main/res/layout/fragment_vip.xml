@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/ic_official_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_vip_top"/>
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_down_arrar_white"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#C93278"
+        android:text="VIP用户升级规则"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/ic_official_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="13sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:text="1、按照累计购买钻石的数量升级                     "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="13sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:text="2、按照累计获得积分的数量升级                     "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="13sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:text="3、按照用户活跃指数升级                                 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="13sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:text="                     (活跃指数如: 聊天次数、发布Ai秀、评论的数量等)                     "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_down_arrar_white"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#C93278"
+        android:text="VIP特权"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/ic_official_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="13sp"
+            android:textColor="#C93278"
+            android:text="普通用户"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:text="：每天"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="13sp"
+            android:textColor="#C93278"
+            android:text="3次"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:text="打招呼的机会"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="13sp"
+            android:textColor="#C93278"
+            android:text="VIP用户"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:text=":按照等级每天将获得更多次数的打招呼机会"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#323441">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="在线"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="最新在线"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Now online User"
+            android:textColor="@android:color/black"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.whale.nangua.toquan.view.NGCircleImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/pumpkin"
+                    android:id="@+id/view1"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <com.whale.nangua.toquan.view.NGCircleImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/pumpkin"
+                    android:id="@+id/view2"
+                    android:layout_marginStart="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"/>
+
+                <com.whale.nangua.toquan.view.NGCircleImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/pumpkin"
+                    android:id="@+id/view3"
+                    android:layout_marginStart="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"/>
+                <com.whale.nangua.toquan.view.NGCircleImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/pumpkin"
+                    android:id="@+id/view4"
+                    android:layout_marginStart="120dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"/>
+                <com.whale.nangua.toquan.view.NGCircleImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/pumpkin"
+                    android:id="@+id/view5"
+                    android:layout_marginStart="160dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"/>
+                <com.whale.nangua.toquan.view.NGCircleImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/pumpkin"
+                    android:id="@+id/view6"
+                    android:layout_marginStart="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="140dp"
+            android:text="长沙市"
+            android:textColor="#21A766"/>
+
+        <Button
+            android:id="@+id/recharge_rechargebtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/online_onlinebtn_selector"
+            android:elevation="0dp"
+            android:text="点击上线"
+            android:textColor="@android:color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:text="下线状态下别人无法看到你"
+                android:textColor="#7D7D7D"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"></TextView>
+    </LinearLayout>
+</LinearLayout>

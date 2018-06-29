@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#323441">
+
+        <!--按钮选择区域-->
+        <RadioGroup
+            android:layout_centerHorizontal="true"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtn_find_guard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="守护"
+                android:textColor="#BCBECA"/>
+
+            <RadioButton
+                android:id="@+id/rbtn_find_hot"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="热门"
+                android:textColor="@android:color/white"/>
+
+            <RadioButton
+                android:id="@+id/rbtn_find_newsest"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="最新"
+                android:textColor="#BCBECA"/>
+        </RadioGroup>
+
+        <!--滑动条区域-->
+        <com.whale.nangua.toquan.view.NGHorizontalScrollCursor
+            xmlns:cursor="http://schemas.android.com/apk/res/com.whale.nangua.toquan"
+            android:id="@+id/sc_find"
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            cursor:cursorcolor="#E51F67"
+            cursor:space="0"></com.whale.nangua.toquan.view.NGHorizontalScrollCursor>
+
+        <ImageButton
+            android:id="@+id/imgbtn_find_addvideo"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_add_white_24dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_find"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"></TextView>
+    </LinearLayout>
+</LinearLayout>

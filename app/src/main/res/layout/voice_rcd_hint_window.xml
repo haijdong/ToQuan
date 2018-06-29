@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/voice_rcd_hint_rcding"
+        android:layout_width="140.0dip"
+        android:layout_height="140.0dip"
+        android:visibility="visible"
+        android:background="@drawable/voice_rcd_hint_bg"
+         >
+         
+         <LinearLayout 
+             android:layout_centerInParent="true"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content">
+             <ImageView
+                android:id="@+id/volume_img_1"
+                android:layout_width="43sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="10dip"
+                 />
+
+         <ImageView
+                android:id="@+id/volume"
+                android:layout_width="43sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="10dip"
+                 />
+         </LinearLayout>
+      
+          <TextView
+            android:id="@+id/volume_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10.0dip"
+            android:text="手指上滑，取消发送"
+            android:textSize="12sp"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/voice_rcd_hint_cancel"
+        android:layout_width="140.0dip"
+        android:layout_height="140.0dip"
+        android:background="@drawable/voice_rcd_hint_bg"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="松开手指，取消发送"
+            android:textSize="12sp"
+            android:background="#cd0000"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/voice_rcd_hint_tooshort"
+        android:layout_width="140.0dip"
+        android:layout_height="140.0dip"
+        android:background="@drawable/voice_rcd_hint_bg"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/voice_to_short" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="时间太短"
+            android:textSize="12sp"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>

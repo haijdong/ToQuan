@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <!-- 顶部布局 -->
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_othersinfo_top"
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pumpkin2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="19dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_othersinfo_viplevel"
+                        android:textColor="@android:color/white"/>
+
+                    <Button
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="27dp"
+                        android:layout_marginTop="13dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_userinfo_ifcertification"
+                        android:text="未认证"
+                        android:textColor="#A3A5B1"
+                        android:textSize="13sp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="这是萌萌哒个人签名"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <com.whale.nangua.toquan.view.RelativelayoutOthersInfo
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@android:color/transparent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="55dp">
+            </com.whale.nangua.toquan.view.RelativelayoutOthersInfo>
+
+            <!--<RelativeLayout
+                android:id="@+id/relativelayout_othersinfo_othersinfo"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="55dp"
+                android:orientation="vertical">
+                <com.whale.nangua.toquan.view.NGCircleImageView
+                    android:id="@+id/circleview_othersinfo_othersportrait"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/pumpkin"/>
+
+                <ImageView
+                    android:id="@+id/circleview_othersinfo_playandpause"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/circleview_othersinfo_othersportrait"
+                    android:src="@drawable/ic_play"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_othersinfo_othersnamesex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/circleview_othersinfo_othersportrait"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_female"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="瓜瓜"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/linearlayout_othersinfo_othersnamesex"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="15分钟前|2053.6km"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"/>
+            </RelativeLayout>-->
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- 拖动布局 -->
+    <ScrollView
+        android:id="@+id/myscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:id="@+id/linelayout_othersinfo_scrolllayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EEEEEE"
+            android:orientation="vertical">
+
+            <!-- 守护天使 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="守护天使"
+                    android:textColor="#EE4755"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <com.whale.nangua.toquan.view.NGNormalCircleImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/pumpkin3"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp">
+
+                        <com.whale.nangua.toquan.view.NGNormalCircleImageView
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/pumpkin3"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp">
+
+                        <com.whale.nangua.toquan.view.NGNormalCircleImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/pumpkin3"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp">
+
+                        <com.whale.nangua.toquan.view.NGNormalCircleImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/pumpkin3"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="right"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_arrow_right_24dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#DDDDDD"></View>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="15dp"
+                android:background="#DDDDDD"></View>
+            <!-- 相册 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="相册"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="photos"
+                        android:textColor="@android:color/black"
+                        android:textSize="7sp"/>
+                </LinearLayout>
+
+                <com.whale.nangua.toquan.view.NGOthersInfoAtyHorizotalScrollView
+                    android:id="@+id/scrollview_othersinfo_photos"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@android:color/darker_gray"
+                    android:scrollbars="none">
+                </com.whale.nangua.toquan.view.NGOthersInfoAtyHorizotalScrollView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#DDDDDD"></View>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="15dp"
+                android:background="#DDDDDD"></View>
+            <!-- 私房视频 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="私房视频"
+                        android:textColor="#EE4755"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="5"
+                        android:textColor="#E0E0E0"
+                        android:textSize="25sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/pumpkin4"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/pumpkin4"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/pumpkin4"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/pumpkin4"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_arrow_right_24dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#DDDDDD"></View>
+
+            <!-- ID和缘分印象 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#DDDDDD"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="ID"
+                        android:textColor="#979797"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="19176276"
+                            android:textColor="@android:color/black"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="#DDDDDD"></View>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:text="缘分印象"
+                    android:textColor="#979797"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        >
+
+
+        <ImageButton
+            android:id="@+id/btn_othersinfo_back"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_title_back"/>
+
+        <ImageButton
+            android:id="@+id/btn_othersinfo_report"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_more_vert_24dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FF5967">
+
+
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="和TA聊天"
+            android:textColor="@android:color/white"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#CA4752"></View>
+
+        <Button
+            android:id="@+id/btn_othersinfo_guardta"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="守护TA"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

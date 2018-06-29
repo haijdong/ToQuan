@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#323441">
+
+        <ImageButton
+            android:id="@+id/official_returnbtn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@android:color/transparent"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_title_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/official_returnbtn"
+            android:gravity="center_vertical"
+            android:text="官方活动"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <FrameLayout
+            android:id="@+id/fragment_official"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+    </ScrollView>
+
+
+</LinearLayout>

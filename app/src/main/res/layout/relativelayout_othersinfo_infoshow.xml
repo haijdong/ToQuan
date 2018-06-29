@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/relativelayout_othersinfo_othersinfo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+
+    <com.whale.nangua.toquan.view.NGCircleImageView
+        android:id="@+id/circleview_othersinfo_othersportrait"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/pumpkin"/>
+
+    <ImageView
+        android:id="@+id/circleview_othersinfo_playandpause"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/circleview_othersinfo_othersportrait"
+        android:src="@drawable/ic_play"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_othersinfo_othersnamesex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circleview_othersinfo_othersportrait"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_female"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="瓜瓜"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/linearlayout_othersinfo_othersnamesex"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="15分钟前|2053.6km"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"/>
+</RelativeLayout>

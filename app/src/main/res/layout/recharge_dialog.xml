@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="320dp"
+              android:layout_height="420dp"
+              android:background="@drawable/shape_recharge_dialog"
+              android:orientation="vertical"
+              android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="微信支付"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:background="@drawable/selector_recharge_dialog_btn"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rdrbv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_ruby"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_toEndOf="@+id/rdrbv_1"
+            android:gravity="center"
+            android:text="20颗"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:background="@drawable/shape_recharge_dialog_moneytv"
+            android:gravity="center"
+            android:text="￥3.00"
+            android:textColor="#FF9800"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"></View>
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/selector_recharge_dialog_btn"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rdrbv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_ruby"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_toEndOf="@+id/rdrbv_2"
+            android:gravity="center"
+            android:text="42颗"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:background="@drawable/shape_recharge_dialog_moneytv"
+            android:gravity="center"
+            android:text="￥6.00"
+            android:textColor="#FF9800"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"></View>
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/selector_recharge_dialog_btn"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rdrbv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_ruby"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_toEndOf="@+id/rdrbv_3"
+            android:gravity="center"
+            android:text="240颗"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:background="@drawable/shape_recharge_dialog_moneytv"
+            android:gravity="center"
+            android:text="￥30.00"
+            android:textColor="#FF9800"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"></View>
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/selector_recharge_dialog_btn"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rdrbv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_ruby"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_toEndOf="@+id/rdrbv_4"
+            android:gravity="center"
+            android:text="800颗"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:background="@drawable/shape_recharge_dialog_moneytv"
+            android:gravity="center"
+            android:text="￥98.00"
+            android:textColor="#FF9800"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"></View>
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/selector_recharge_dialog_btn"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rdrbv_5"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_ruby"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_toEndOf="@+id/rdrbv_5"
+            android:gravity="center"
+            android:text="2580颗"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:background="@drawable/shape_recharge_dialog_moneytv"
+            android:gravity="center"
+            android:text="￥298.00"
+            android:textColor="#FF9800"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"></View>
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/selector_recharge_dialog_btn"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rdrbv_6"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_ruby"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_toEndOf="@+id/rdrbv_6"
+            android:gravity="center"
+            android:text="5280颗"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:background="@drawable/shape_recharge_dialog_moneytv"
+            android:gravity="center"
+            android:text="￥588.00"
+            android:textColor="#FF9800"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"></View>
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/selector_recharge_dialog_btn"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rdrbv_7"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_ruby"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_toEndOf="@+id/rdrbv_7"
+            android:gravity="center"
+            android:text="14580颗"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:background="@drawable/shape_recharge_dialog_moneytv"
+            android:gravity="center"
+            android:text="￥1598.00"
+            android:textColor="#FF9800"/>
+    </RelativeLayout>
+</LinearLayout>

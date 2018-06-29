@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6b6b6b"
+    android:orientation="vertical"
+    tools:context="com.whale.nangua.toquan.act.MenuActivity">
+
+    <TextView
+        android:id="@+id/guide"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="GuideActivity" />
+
+    <TextView
+        android:id="@+id/Guide2Activity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="Guide2Activity" />
+
+    <TextView
+        android:id="@+id/LoginAty"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="LoginAty" />
+
+    <TextView
+        android:id="@+id/OfficialActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="OfficialActivity" />
+
+    <TextView
+        android:id="@+id/OthersInfoActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="OthersInfoActivity" />
+
+    <TextView
+        android:id="@+id/PersonalActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="PersonalActivity" />
+
+    <TextView
+        android:id="@+id/TestAty"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="TestAty 弹幕" />
+
+    <TextView
+        android:id="@+id/PopActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="PopActivity" />
+
+    <TextView
+        android:id="@+id/CarrousellayoutActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="旋转木马" />
+
+    <TextView
+        android:id="@+id/NestedScrollViewActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="NestedScrollViewActivity" />
+
+    <TextView
+        android:id="@+id/TextHomeActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="TextHomeActivity" />
+
+</LinearLayout>

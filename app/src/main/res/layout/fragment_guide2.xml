@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/bg_guide_frag2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/tv_guide2_txt1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="142dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:textSize="35sp"
+            android:textColor="@android:color/white"
+            android:text="这一次"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text=",让你看见真实的她"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/tv_guide2_txt2"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="82dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="所有照片视频均来自于"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="35sp"
+            android:textColor="@android:color/white"
+            android:text="摄像头"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

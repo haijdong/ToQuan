@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#323441">
+
+        <ImageButton
+            android:id="@+id/certification_returnbtn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@android:color/transparent"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_title_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/certification_returnbtn"
+            android:gravity="center_vertical"
+            android:text="申请认证"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+
+        <ImageButton
+            android:scaleType="fitCenter"
+            android:padding="13dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_menubar_share"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:text="未认证"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"
+        android:text="只有认证用户才可以兑换积分"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/selector_certification_videoidentify"
+        android:layout_marginTop="50dp"
+        android:text="视频认证"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="职业认证"
+        android:background="@drawable/selector_certification_positionidentify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:text="重要提示"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#CECECE"
+        android:layout_marginTop="5dp"
+        android:text="请不要提交非个人照片或者视频，一旦\n        用户举报，彻底取消认证资格"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="关注微信:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:text="to2015app"
+            android:textColor="#38AE3E"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:text="实时沟通审核信息"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

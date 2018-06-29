@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#F1F1F1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#323441">
+
+        <ImageButton
+            android:id="@+id/feedback_returnbtn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@android:color/transparent"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_title_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/feedback_returnbtn"
+            android:gravity="center_vertical"
+            android:text="意见反馈"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="45dp">
+            <com.whale.nangua.toquan.view.NGCircleImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/pumpkin"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:text="ID:19182529"
+                android:textSize="19sp"
+                android:textColor="#4F5257"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <EditText
+            android:textColorHint="#CCCCCC"
+            android:hint="请输入您的建议"
+            android:gravity="top"
+            android:padding="8dp"
+            android:background="@drawable/feedback_et_shape"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"/>
+        
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:text="提交"
+                android:elevation="0dp"
+                android:background="@drawable/feedback_submitbtn_selector"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
