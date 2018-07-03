@@ -1,18 +1,13 @@
-# osx noise
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
 .DS_Store
-profile
-
-# xcode noise
-build/*
-*.mode1
-*.mode1v3
-*.mode2v3
-*.perspective
-*.perspectivev3
-*.pbxuser
-*.xcworkspace
-xcuserdata
-
-# svn & cvs
-.svn
-CVS
+/build
+/captures
+.externalNativeBuild
+/framework_lib/build/
+/framework_view/build/
+/MPChartLib/build/
+/.idea/
